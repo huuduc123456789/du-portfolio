@@ -1,0 +1,153 @@
+* {
+    box-sizing: inherit;
+padding: 0;
+margin: 0;
+border: 0;
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.2rem;
+
+}
+body {
+    font-size: 1.6rem;
+    
+   
+}
+.grid {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+
+}
+.grid__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+:root {
+    --text-color: #888;
+
+    --title-text-color: #648880;
+    --header-color:#293f50; 
+}
+/* all */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    margin-bottom: 100px;
+    
+}
+.section__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 50px;
+}
+.section__text > p {
+    word-break: keep-all;
+    width: 580px;
+    margin: 30px 0;
+    font-size: 1.8rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: 800;
+}
+.section__text > h3 {
+    margin: 20px 0;
+    color: var(--title-text-color);
+    font-size: 3rem;
+}
+.section__text > span {
+    font-size: 1.6rem;
+    color: #a9b2b9;
+    font-weight: 800;
+}
+.section__text > h4 {
+    font-size: 2rem;
+    color: var(--title-text-color);
+    margin: 30px 0;
+}
+.section__list {
+    list-style: square;
+    color: #888;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.section__input-text {
+    border: 1px solid #333;
+    height: 35px;
+    width: 280px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+
+}
+.section__input{
+    line-height: 50px;
+    font-size: 2rem;
+    color: var(--title-text-color);
+    font-weight: 800;
+    margin-top: 100px;
+}
+.submit {
+
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px ;
+    background-color: var(--title-text-color);
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.submit:hover {
+    background-color: #77a198 ;
+}
+.section__input textarea {
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.drop__main {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #888;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fa-caret-down {
+    margin-left: 10px;
+}
+.drop {
+    position: relative;
+    width: 70px;
+}
+.drop__list {
+    position: absolute;
+    list-style: none;
+    border: 1px solid #777;
+    width: 70px;
+    text-align: center;
+    background-color: #fff;
+    transition:  0.2s linear ;
+    z-index: 1;
+    /* display: none; */
+    border-radius: 5px;
+}
+
+
+
